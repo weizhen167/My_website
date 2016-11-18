@@ -6376,8 +6376,8 @@ button.close {
 }
 
 .section{
-	width: 100%;
-    height: auto;
+	width: auto;
+    height: 100%;
     min-height: 700px;
     padding: 0;
     overflow: hidden;
@@ -6404,10 +6404,24 @@ button.close {
 
 .heading {
     font-size: 8em;
-    font-weight: 700;
-    position: fixed;
+    font-weight: 30;
+    /*position: fixed;*/
     padding-bottom: 10px;
     color: #FFFFFF;
     overflow: hidden;
     opacity: 1;
+}
+
+.heading1{
+	text-align: center;
+    padding: 0 0%;
+    width: 100%;
+    position: absolute;
+	top: 90%;
+    left: 80%;
+	-webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
 }
