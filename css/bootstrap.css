@@ -6375,24 +6375,39 @@ button.close {
     position: absolute;
 }
 
-.bgvid {
-/*position: fixed;*/
-right: 0; 
-bottom: 0; 
-min-width: 100%; 
-min-height: 100%; 
-width: 100%; 
-height: 100%; 
-z-index: -100; 
-background-size: cover;}
-
-.zhenbg {
-    width: 100%;
-    height: 100%;
-    min-height: 100%;
-    
-    background-size: cover;
-    position: absolute;
-    z-index: -1;
+.section{
+	width: 100%;
+    height: auto;
+    min-height: 700px;
+    padding: 0;
     overflow: hidden;
+    position: relative;
+}
+
+.bgvid {
+	position: fixed;
+	right: 0; 
+	bottom: 0; 
+	min-width: 100%; 
+	min-height: 100%; 
+	width: auto; 
+	height: auto; 
+	z-index: -100; 
+	background-size: cover;
+}
+
+.name{
+    position: relative;
+    display: inline-block;
+    opacity: 1;
+}
+
+.heading {
+    font-size: 8em;
+    font-weight: 700;
+    position: fixed;
+    padding-bottom: 10px;
+    color: #FFFFFF;
+    overflow: hidden;
+    opacity: 1;
 }
