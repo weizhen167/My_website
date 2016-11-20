@@ -6,8 +6,10 @@ function getRandomColor() {
   }
   var perfectStr=done(str16);
   var random_color = '#'+perfectStr;
-  var tt = document.getElementById('title00');
-  tt.style.color=random_color;
+  var tt0 = document.getElementById('title00');
+  var tt1 = document.getElementById('title01');
+  tt0.style.color=random_color;
+  tt1.style.color=random_color;
 }
 //console.log(getRandomColor());
 

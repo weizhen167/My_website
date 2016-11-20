@@ -6375,7 +6375,7 @@ button.close {
 }
 
 .title0 {
-    font-size: 7em;
+    font-size: 8em;
     font-weight: 15;
     overflow: hidden;
     opacity: 1;
@@ -6407,4 +6407,60 @@ button.close {
 	left: 33%;
     height: 80%;	
 	bottom: 0; 
+}
+
+.intro-section{
+	position:absolute;
+	right: 0; 
+	bottom: 0; 
+	min-width: 100%; 
+	min-height: 100%;
+	width: auto; 
+	height: auto; 
+	z-index: -100; 
+	background-size:cover;
+	background:url(../images/1.jpg) no-repeat;
+}
+
+.skill-section{
+	position:relative;
+	right: 0; 
+	bottom: 0; 
+	min-width: 100%;  
+	width: auto; 
+	height: auto; 
+	z-index: -100; 
+	background-size:fixed;
+	background-color:#ff3543;
+}
+
+.experience-section{
+	right: 0; 
+	bottom: 0; 
+	min-width: 100%;  
+	width: auto; 
+	height: auto; 
+	z-index: -100; 
+	background-size:fixed;
+	background-color:#1235ff;
+}
+
+.projects-section{
+	right: 0; 
+	bottom: 0; 
+	min-width: 100%; 
+	width: auto; 
+	height: auto; 
+	z-index: -100; 
+	background-color:#1ff54f;
+}
+
+.contact-section{
+	right: 0; 
+	bottom: 0; 
+	min-width: 100%; 
+	width: auto; 
+	height: auto; 
+	z-index: -100; 
+	background-color:#12f5f3;
 }
