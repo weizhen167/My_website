@@ -6361,17 +6361,8 @@ button.close {
 
 /*# sourceMappingURL=bootstrap.css.map 
 */
-.section{
-	width: auto;
-    height: 100%;
-    min-height: 700px;
-    padding: 0;
-    overflow: hidden;
-    position: relative;
-}
-
 .bgvid {
-	position: fixed;
+	position: absolute;
 	right: 0; 
 	bottom: 0; 
 	min-width: 100%; 
@@ -6380,27 +6371,41 @@ button.close {
 	height: auto; 
 	z-index: -100; 
 	background-size: cover;
+	background:url(../images/1.jpg) no-repeat;
 }
 
 .title0 {
-    font-size: 8em;
-    font-weight: 30;
-    padding-bottom: 10px;
+    font-size: 7em;
+    font-weight: 15;
     color: #FFFFFF;
     overflow: hidden;
     opacity: 1;
 }
 
-.heading{
+.heading0{
+	position: absolute;
+    right: 0; 
+	bottom: 0; 
+	top: 50%;
+	left: 50%;
+	width: 100%; 
+	height: 100%;
+    min-width: 100%; 
+	min-height: 100%; 	
+	z-index: -100; 
 	text-align: center;
-    padding: 0 0%;
-    width: 100%;
-    position: absolute;
-	top: 75%;
-    left: 61.8%;
+	background-size: cover;
 	-webkit-transform: translate(-50%,-50%);
     -moz-transform: translate(-50%,-50%);
     -ms-transform: translate(-50%,-50%);
     -o-transform: translate(-50%,-50%);
     transform: translate(-50%,-50%);
+}
+
+.heading1{
+	position: absolute;
+	width: 67%;
+	left: 33%;
+    height: 80%;	
+	bottom: 0; 
 }
