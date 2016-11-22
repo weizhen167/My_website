@@ -6414,7 +6414,7 @@ button.close {
 
 
 .title0 {
-    font-size: 8em;
+    font-size: 6em;
     font-weight: 30;
     padding-bottom: 10px;
     color: #000000;
@@ -6422,15 +6422,46 @@ button.close {
     opacity: 1;
 }
 
+.title1 {
+    font-size: 6em;
+    font-weight: 30;
+    padding-bottom: 10px;
+    color: #000000;
+    overflow: hidden;
+    opacity: 1;
+}
+
+.clock-heading{
+    text-align: center;
+    width: 32%;
+    position: absolute;
+    top: 80%;
+    left: 20%;
+    z-index:-19;	
+	background-color:transparent;
+	min-width:500px;
+	display: inline-block;
+	vertical-align: top;
+    /*	background-color:#ff00ff;*/
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+
 .heading{
     text-align: center;
-    width: 50%;
+    width: 32%;
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 80%;
+    left: 80%;
     z-index:-19;
-    background-color:transparent;
-    /*background-color:#ff00ff;*/
+	display: inline-block;
+	vertical-align: top;
+	background-color:transparent;
+	min-width:450px;
+    /*	background-color:#ff00ff;	*/
     -webkit-transform: translate(-50%,-50%);
     -moz-transform: translate(-50%,-50%);
     -ms-transform: translate(-50%,-50%);

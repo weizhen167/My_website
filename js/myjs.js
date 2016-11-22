@@ -16,7 +16,7 @@
 
 
 
-function getRandomColor_liyu() {
+function setRandomColor_liyu() {
 
 var Arr = ["#381611","#F4A340","#F45540"];  
 var random_color = Arr[Math.floor(Math.random() * Arr.length + 1)-1];  
@@ -24,8 +24,30 @@ var tt1 = document.getElementById('title01');
 tt1.style.color=random_color;
 }
 
-function bannerPageFlash(){
-    window.setInterval("getRandomColor_liyu()",700);
+function setTitleText() {
+var Arr = ["你好","Hello","Bonjour"];  
+var add = Arr[Math.floor(Math.random() * Arr.length + 1)-1];
+var tt1 = document.getElementById('title-text');
+tt1.innerHTML=add;
 }
+
+
+function clockBanner(){ 
+	var dates = document.getElementById("dates");
+	
+	dates.innerHTML=new Date().toLocaleString();
+} 
+
+
+
+
+
+
+function bannerPageFlash(){
+	window.setInterval("clockBanner()",1000); 
+	window.setInterval("setTitleText()",3000);
+    window.setInterval("setRandomColor_liyu()",700);
+}
+
 window.onload = bannerPageFlash;
 
