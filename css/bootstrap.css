@@ -6395,9 +6395,9 @@ button.close {
 .xxx{
     height:100%;
     width:107%;
-    min-width:107%;
+    min-width:108%;
     min-height:100%;
-    left:-7%;
+    left:-8%;
     background-color:#ffffff;
     position:absolute;
     z-index:-20
