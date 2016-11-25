@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en-us" class="skrollr skrollr-desktop">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>test</title>
-	<link href="../css/bootstrap.css" rel="stylesheet">
+	<link href="../css/zhen-main.css" rel="stylesheet">
+	<link href="../css/style.css" rel="stylesheet">
   </head>
   
   <body> 
@@ -20,27 +21,33 @@
    </ul>
   </nav>
   
+   <!--div id="overlay" class="overlay">
+   
+   <div class="logo">
+    <img class="logo-img" src="./Brittany Chiang _ Front-End Software Engineer_files/logo-white.png" alt="" />
+    <span>Brittany Chiang</span>
+   </div>
+   
+   
+   <nav class="overlay-menu">
+    <ul class="menu-container">
+     <li class="menu-item"><a href="#about-sec">Intro</a></li>
+     <li class="menu-item"><a href="#skill-sec">Skills</a></li>
+     <li class="menu-item"><a href="#experience-sec">experience</a></li>
+     <li class="menu-item"><a href="#project-sec">project</a></li>
+     <li class="menu-item"><a href="#contact-sec">contact</a></li>
+    </ul>
+   </nav>
+  </div-->
   
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+  <div id="skrollr-body">
   
   <section class="section" style="background-color:#ffffff" id="about-sec">
    <div class="section-wrapper">
-      <h1 class="odd-heading">Hi I'm Zhen Wei</h1>
-	  <span class="odd-divider"></span>
-	  <h6 class="section-subheading"> 可以看到，W3C这份规范提供的动画没有帧间隔时间这个概念，也就是何时触发下一帧完全由浏览器控制。其它方面跟setInterval动画几乎一样，上面的算子也可以直接拿来用。下面说下我遇到的几个坑：
+      <h1 class="heading">Hi I'm Zhen Wei</h1>
+	  <span class="divider"></span>
+	  <h6 class="subheading"> 可以看到，W3C这份规范提供的动画没有帧间隔时间这个概念，也就是何时触发下一帧完全由浏览器控制。其它方面跟setInterval动画几乎一样，上面的算子也可以直接拿来用。下面说下我遇到的几个坑：
 首先是firefox：在11之前的某个版本开始，firefox实现了mozRequestAnimationFrame，却没有提供对应的mozCancelRequestAnimationFrame，那时网上有文章会提到通过“注册、移除moz私有的beforepaint事件”来模拟这个事件。坑爹的是，firefox11开始有了mozCancelRequestAnimationFrame，但老方案直接抛异常。
 webkit下也有坑：某个诡异的webKit版本下，webkitRequestAnimationFrame没有给回调函数传time参数，更神奇的是一些webkit居然传递错误格式的time。为此，在webkit下我们通常不用参数里的time，改为自己new Date。</h6>
    </div>
@@ -50,58 +57,43 @@ webkit下也有坑：某个诡异的webKit版本下，webkitRequestAnimationFram
   
   <section class="section" style="background-color:#232323" id="skill-sec">
    <div class="section-wrapper">
-     <h1 class="even-heading">My Skills</h1>
-	  <span class="even-divider"></span>
+     <h1 class="heading">My Skills</h1>
+	  <span class="divider"></span>
    </div>
   </section>
   
   <section class="section" style="background-color:#ffffff" id="experience-sec">
    <div class="section-wrapper">
-     <h1 class="odd-heading">My Experience</h1>
-	  <span class="odd-divider"></span>
+     <h1 class="heading">My Experience</h1>
+	  <span class="divider"></span>
    </div>
    </div>
   </section>
   
   <section class="section" style="background-color:#232323" id="project-sec">
    <div class="section-wrapper">
-     <h1 class="even-heading">My Projects</h1>
-	  <span class="even-divider"></span>
+     <h1 class="heading">My Projects</h1>
+	  <span class="divider"></span>
    </div>
   </section>
   
   <section class="section" style="background-color:#ffffff"id="contact-sec">
    <div class="section-wrapper">
-     <h1 class="odd-heading">Contact Me</h1>
-	  <span class="odd-divider"></span>
+     <h1 class="heading">Contact Me</h1>
+	  <span class="divider"></span>
    </div>
   </section>
 	  
 	  
-	  
-  </body>
-  
+ </div>
+ 
   <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="../js/bootstrap.min.js"></script>
+  <!--script src="../js/skrollr.min.js"></script-->
+  <script src="../js/main.min.js"></script>
+  </body>
+  
+ 
 </html>
 
-
-
-
-   <!--
-    
-     <h1 class="section-heading">Hey, I'm Brittany.</h1>
-     <h3 class="section-subheading">I'm a design-minded, detail oriented software engineer passionate about combining beautiful code with beautiful design.</h3>
-     <span class="divider"></span>
-     <div class="about-wrapper">
-      <img class="headshot" src="img/headshot.jpg" alt="headshot" />
-      <div class="about-text-wrapper">
-       <p class="about-text"><strong>I'm a fourth year student at Northeastern University</strong> in Boston studying computer science and interaction design. I have experience developing and designing products for the web, from simple landing pages to multi-tier web applications. I strive to create software that not only functions efficiently under the hood, but also provides intuitive, pixel-perfect user experiences.</p>
-       <p class="about-text">I love finding new and better ways to create seamless user experiences with clean, efficient, and scalable code. I consider work an ongoing education, and I'm always looking for opportunities to work with those who are willing to share their knowledge as much as I want to learn. At the end of the day, my primary goal is to create something beautiful with people that bring out the best in me.</p>
-       <p class="about-text"><strong>When I'm not in front of a screen,</strong> I'm probably snowboarding, traveling, petting dogs, or learning a new song on my uke.</p>
-      
-     </div>
-    </div>
-	
-	-->

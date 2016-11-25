@@ -38,16 +38,12 @@ function clockBanner(){
 	dates.innerHTML=new Date().toLocaleString();
 } 
 
-
-
-
-
-
 function bannerPageFlash(){
 	window.setInterval("clockBanner()",1000); 
 	window.setInterval("setTitleText()",3000);
     window.setInterval("setRandomColor_liyu()",700);
 }
+
 
 window.onload = bannerPageFlash;
 
