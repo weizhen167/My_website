@@ -164,6 +164,17 @@ ul {
 	color: #F4A340;
 }
 
+#about-sec .about-wrapper {
+	padding-right: 20px
+}
+
+#about-sec .about-wrapper .about-text-wrapper {
+	display: inline-block;
+	width: 60%;
+	vertical-align: top
+}
+
+
 
 /*even example*/
 #skill-sec .section-wrapper .heading{
@@ -295,8 +306,8 @@ ul {
 	position: absolute;
 	width: 40px;
 	height: 40px;
-	top: 10%;
-	left: 10%;
+	top: 5px;
+	left: 5px;
 	border-radius: 50%;
 	background: #ffffff ;
 	/*
@@ -369,7 +380,7 @@ ul {
 	border-radius: 20px;
 	position: relative;
 	background: #ffffff;
-	opacity: 0.95;
+	opacity: 1;
 	/*
 	float: right;
 	-webkit-transition: all .3s ease;
@@ -409,7 +420,7 @@ ul {
 
 /*zhiwei de miaoshu***********/
 #experience-sec .experience-wrapper #timeline .timeline-block .timeline-content .position {
-	color:#000000;
+	color:#381611;
 	margin: 5px 0 10px;
 	font-size: 18px;
 	display: inline-block;
@@ -423,7 +434,7 @@ ul {
 }
 
 #experience-sec .experience-wrapper #timeline .timeline-block .timeline-content .company a {
-	color: #000000;
+	color: #F45540;
 	display: inline;
 	-webkit-transition: all .3s ease;
 	-moz-transition: all .3s ease;
@@ -436,7 +447,7 @@ ul {
 	margin: 1em 0;
 	font-size: 1em;
 	line-height: 1.5;
-	color: #000000 
+	color: #381611
 }
 
 #experience-sec .experience-wrapper #timeline .timeline-block .date {
@@ -1169,15 +1180,7 @@ ul {
 	}
 }
 
-#about-section .about-wrapper {
-	padding-right: 20px
-}
 
-#about-section .about-wrapper .about-text-wrapper {
-	display: inline-block;
-	width: 60%;
-	vertical-align: top
-}
 
 @media only screen and (max-width:900px) {
 	#about-section .about-wrapper {

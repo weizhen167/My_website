@@ -47,9 +47,12 @@
    <div class="section-wrapper">
       <h1 class="heading">Hi I'm Zhen Wei</h1>
 	  <span class="divider"></span>
-	  <h6 class="subheading"> 可以看到，W3C这份规范提供的动画没有帧间隔时间这个概念，也就是何时触发下一帧完全由浏览器控制。其它方面跟setInterval动画几乎一样，上面的算子也可以直接拿来用。下面说下我遇到的几个坑：
-首先是firefox：在11之前的某个版本开始，firefox实现了mozRequestAnimationFrame，却没有提供对应的mozCancelRequestAnimationFrame，那时网上有文章会提到通过“注册、移除moz私有的beforepaint事件”来模拟这个事件。坑爹的是，firefox11开始有了mozCancelRequestAnimationFrame，但老方案直接抛异常。
-webkit下也有坑：某个诡异的webKit版本下，webkitRequestAnimationFrame没有给回调函数传time参数，更神奇的是一些webkit居然传递错误格式的time。为此，在webkit下我们通常不用参数里的time，改为自己new Date。</h6>
+	  <div class="about-wrapper">		  
+		<img class="headshot" src="../images/head.jpg" alt="headshot">
+		<div class="about-text-wrapper">
+	      <h6 class="subheading"> 大家好，我叫魏震，我很屌，我啥都能干，来雇我都</h6>
+		</div>
+	  </div>
    </div>
   </section>
 
