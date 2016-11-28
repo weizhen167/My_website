@@ -29,18 +29,20 @@ ul {
 }
 
 .x1 .section .section-wrapper .heading{
-	font-size: 4em;
-	font-weight: 30;
-	padding-bottom: 10px;
+	 text-align: center;
+	font-size: 3em;
+	font-weight: 500;
+	padding-bottom: -5px;
 	overflow: hidden;
 	opacity: 1;
 }
 
 .x1 .section .section-wrapper .divider{
+	text-align: center;
 	display: block;
-    margin: 30px 0;
-    width: 300px;
-    height: 10px;
+    margin: 40px 0;
+    width: auto;
+    height: 2px;
 }
 
 .x1 .section .section-wrapper .subheading{
@@ -54,37 +56,41 @@ ul {
 
 
 .x1 .section {
-	background-color:#ffffff;
+	background-color:#232323;
 }
 
 .x1 .section .section-wrapper .heading{
-    color: #381611;
+    color: #ffffff;
 }
 
 .x1 .section .section-wrapper .divider{
     background-color: #F45540;
 }
 
-
 .x1 .section .section-wrapper .subheading{
+	color: #ffffff;
+}
+
+/*
+.x1 .section:nth-child(even) {
+	background-color:#ffffff;
+}
+
+.x1 .section:nth-child(even) .section-wrapper .heading{
+    color: #381611;
+}
+
+.x1 .section:nth-child(even) .section-wrapper .divider{
+    background-color: #F45540;
+}
+
+
+.x1 .section:nth-child(even) .section-wrapper .subheading{
 	color: #F4A340;
 }
+*/
 
-.x1 .section:nth-child(odd) {
-	background-color:#232323;
-}
 
-.x1 .section:nth-child(odd) .section-wrapper .heading{
-    color: #ffffff;
-}
-
-.x1 .section:nth-child(odd) .section-wrapper .divider{
-    background-color: #F4A340;
-}
-
-.x1 .section:nth-child(odd) .section-wrapper .subheading{
-	color: #F45540;
-}
 
 
 /*dotnav*/
@@ -204,31 +210,31 @@ ul {
 	display: inline-block;
 	width: 50%;
 	height: auto;
-	border-radius: 100%;
+	border-radius: 50%;
 	margin-top: 10px;
 	float: left;
 	max-width: 450px
 }
 
 #skill-sec .skills-wrapper {
-	padding: 30px
+	padding: 0px
 }
 
 
 #skill-sec .skills-wrapper .propress_nb{ 
 	position:absolute;
-	top:25%;
-	color:#000000; 
-	font-size:20px; 
+	top:20%;
+	color:#ffffff; 
+	font-size:18px; 
  }
  
 #skill-sec .skills-wrapper .progress { 
-	width:90%; 
+	width:50%; 
 	position:relative;
 	overflow:hidden;
 	margin:25px auto 0 0;
-	height: 40px;
-	background-color: #ffffff;
+	height: 30px;
+	background-color: #232323;
 	
 }
 
@@ -242,7 +248,6 @@ ul {
   height: 100%;
   margin-left:80px;
   font-size: 1px;
-  color: #ffffff;
   text-align: center;
   background-color: #F45540;
   box-shadow: inset 0 -10px rgba(0, 0, 0, 0.1);
