@@ -15,7 +15,7 @@ ul {
 	-moz-osx-font-smoothing:grayscale
 }
 
-.section {
+.x1 .section {
 	width: 100%;
 	height: auto;
 	min-height: 800px;
@@ -24,11 +24,11 @@ ul {
 	position: relative
 }
 
-.section .section-wrapper{
+.x1 .section .section-wrapper{
 	padding: 15px 60px 
 }
 
-.section-wrapper .heading{
+.x1 .section .section-wrapper .heading{
 	font-size: 4em;
 	font-weight: 30;
 	padding-bottom: 10px;
@@ -36,20 +36,57 @@ ul {
 	opacity: 1;
 }
 
-.section-wrapper .divider{
+.x1 .section .section-wrapper .divider{
 	display: block;
     margin: 30px 0;
     width: 300px;
     height: 10px;
 }
 
-.section-wrapper .subheading{
-	width: 55%;
+.x1 .section .section-wrapper .subheading{
+	width: 100%;
     font-size: 1.5em;
-    font-weight: 500;
+    font-weight: 100;
     line-height: 1.5;
     margin-top: 1em;
+	margin-left: 2em;
 }
+
+
+.x1 .section {
+	background-color:#ffffff;
+}
+
+.x1 .section .section-wrapper .heading{
+    color: #381611;
+}
+
+.x1 .section .section-wrapper .divider{
+    background-color: #F45540;
+}
+
+
+.x1 .section .section-wrapper .subheading{
+	color: #F4A340;
+}
+
+.x1 .section:nth-child(odd) {
+	background-color:#232323;
+}
+
+.x1 .section:nth-child(odd) .section-wrapper .heading{
+    color: #ffffff;
+}
+
+.x1 .section:nth-child(odd) .section-wrapper .divider{
+    background-color: #F4A340;
+}
+
+.x1 .section:nth-child(odd) .section-wrapper .subheading{
+	color: #F45540;
+}
+
+
 /*dotnav*/
 
 #dot-nav {
@@ -151,18 +188,6 @@ ul {
 
 
 /*odd example*/
-#about-sec .section-wrapper .heading{
-    color: #381611;
-}
-
-#about-sec .section-wrapper .divider{
-    background-color: #F45540;
-}
-
-
-#about-sec .section-wrapper .subheading{
-	color: #F4A340;
-}
 
 #about-sec .about-wrapper {
 	padding-right: 20px
@@ -170,39 +195,25 @@ ul {
 
 #about-sec .about-wrapper .about-text-wrapper {
 	display: inline-block;
-	width: 60%;
-	vertical-align: top
+	width: 50%;
+	vertical-align: top;
 }
 
 
-
-/*even example*/
-#skill-sec .section-wrapper .heading{
-    color: #ffffff;
+#about-sec .about-wrapper .headshot {
+	display: inline-block;
+	width: 50%;
+	height: auto;
+	border-radius: 100%;
+	margin-top: 10px;
+	float: left;
+	max-width: 450px
 }
 
-#skill-sec .section-wrapper .divider{
-    background-color: #F4A340;
-}
-
-#skill-sec .section-wrapper .subheading{
-	color: #F4A340;
-}
 
 
 
 /*odd example*/
-#experience-sec .section-wrapper .heading{
-    color: #381611;
-}
-
-#experience-sec .section-wrapper .divider{
-    background-color: #F45540;
-}
-
-#experience-sec .section-wrapper .subheading{
-	color: #F4A340;
-}
 
 #experience-sec .experience-wrapper {
 	padding: 30px
@@ -226,6 +237,7 @@ ul {
 	width:6px;
 	background: #F45540
 }
+
 
 
 #experience-sec .experience-wrapper #timeline:after {
@@ -279,12 +291,12 @@ ul {
 /*yuanxing*/
 #experience-sec .experience-wrapper #timeline .timeline-block .timeline-img {
 	position: absolute;
-	width: 50px;
-	height: 50px;
-	top: 15px;
+	width: 100px;
+	height: 100px;
+	top: -10px;
 	left: 50%;
 	border-radius: 50%;
-	margin-left: -25px;
+	margin-left: -50px;
 	background: #F45540;
 	/*
 	
@@ -304,8 +316,8 @@ ul {
 
 #experience-sec .experience-wrapper #timeline .timeline-block .timeline-img .timeline-img-center{
 	position: absolute;
-	width: 40px;
-	height: 40px;
+	width: 90px;
+	height: 90px;
 	top: 5px;
 	left: 5px;
 	border-radius: 50%;
@@ -339,20 +351,50 @@ ul {
 	background-size: 100%
 }
 
+
+/*
+	display: inline-block;
+	width: 50%;
+	height: auto;
+	border-radius: 100%;
+	margin-top: 10px;
+	float: left;
+	max-width: 450px*/
+	
 #experience-sec .experience-wrapper #timeline .timeline-block .timeline-img .sprite.university {
-	background-image: url(../images/icons/neu.png)
+	background-image: url(../images/icons/neu.png);
+	border-radius: 50%;
+	left:17px;
+	top:17px;
+	width:90px;
+	height:90px;
 }
 
-#experience-sec .experience-wrapper #timeline .timeline-block .timeline-img .sprite.research {
-	background-image: url(../images/icons/search.png)
+#experience-sec .experience-wrapper #timeline .timeline-block .timeline-img .sprite.microsoft {
+	background-image: url(../images/icons/microsoft.png);
+	border-radius: 50%;
+	left:17px;
+	top:17px;
+	width:90px;
+	height:90px;
 }
 
-#experience-sec .experience-wrapper #timeline .timeline-block .timeline-img .sprite.industry {
-	background-image: url(../images/icons/briefcase.png)
+#experience-sec .experience-wrapper #timeline .timeline-block .timeline-img .sprite.statestreet {
+	background-image: url(../images/icons/statestreet.png);
+	border-radius: 50%;
+	left:17px;
+	top:17px;
+	width:90px;
+	height:90px;
 }
 
-#experience-sec .experience-wrapper #timeline .timeline-block .timeline-img .sprite.academic {
-	background-image: url(../images/icons/notebook.png)
+#experience-sec .experience-wrapper #timeline .timeline-block .timeline-img .sprite.sefas {
+	background-image: url(../images/icons/sefas.png);
+	border-radius: 50%;
+	left:17px;
+	top:17px;
+	width:90px;
+	height:90px;
 }
 
 
@@ -379,7 +421,7 @@ ul {
 	padding: 1.5em;
 	border-radius: 20px;
 	position: relative;
-	background: #ffffff;
+	background: #232323;
 	opacity: 1;
 	/*
 	float: right;
@@ -420,7 +462,7 @@ ul {
 
 /*zhiwei de miaoshu***********/
 #experience-sec .experience-wrapper #timeline .timeline-block .timeline-content .position {
-	color:#381611;
+	color:#F45540;
 	margin: 5px 0 10px;
 	font-size: 18px;
 	display: inline-block;
@@ -434,7 +476,7 @@ ul {
 }
 
 #experience-sec .experience-wrapper #timeline .timeline-block .timeline-content .company a {
-	color: #F45540;
+	color: #F4A340;
 	display: inline;
 	-webkit-transition: all .3s ease;
 	-moz-transition: all .3s ease;
@@ -447,19 +489,19 @@ ul {
 	margin: 1em 0;
 	font-size: 1em;
 	line-height: 1.5;
-	color: #381611
+	color: #ffffff
 }
 
 #experience-sec .experience-wrapper #timeline .timeline-block .date {
-	font-size: 1em;
+	font-size: 18px;
 	font-weight: 500;
 	display: inline-block;
-	color: #000000;
+	color: #ffffff;
 	text-transform: uppercase;
 	position: absolute;
 	width: 100%;
 	left: 55%;
-	top: 30px
+	top: 32px
 }
 
 #experience-sec .experience-wrapper #timeline .timeline-block .date:nth-of-type(even) {
@@ -492,36 +534,6 @@ ul {
 	line-height: 0
 }
 
-
-
-
-/*even example*/
-#project-sec .section-wrapper .heading{
-    color: #ffffff;
-}
-
-
-#project-sec .section-wrapper .divider{
-    background-color: #F4A340;
-}
-
-#project-sec .section-wrapper .subheading{
-	color: #F4A340;
-}
-
-
-/*odd example*/
-#contact-sec .section-wrapper .heading{
-    color: #000000;
-}
-
-#contact-sec .section-wrapper .divider{
-    background-color: #F45540;
-}
-
-#contact-sec .section-wrapper .subheading{
-	color: #F4A340;
-}
 
 
 
@@ -1192,20 +1204,7 @@ ul {
 	}
 }
 
-#about-section .about-wrapper .about-text-wrapper .about-text {
-	margin-bottom: 10px;
-	font-size: 1.15em
-}
 
-#about-section .about-wrapper .headshot {
-	display: inline-block;
-	width: 35%;
-	height: auto;
-	border-radius: 50%;
-	margin-top: -100px;
-	float: right;
-	max-width: 450px
-}
 
 @media only screen and (max-width:1000px) {
 	#about-section .about-wrapper .headshot {
