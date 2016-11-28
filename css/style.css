@@ -220,10 +220,23 @@ ul {
 	padding: 0px
 }
 
+#skill-sec .skills-wrapper .skill-half-l{
+	width:50%;
+	height:auto;
+	background-color:#ff00ff;
+}
+
+#skill-sec .skills-wrapper .skill-half-r{
+	width:50%;
+	height:auto;
+	margin-left:50%;
+	top:-100px;
+	background-color:#0000ff;
+}
 
 #skill-sec .skills-wrapper .propress_nb{ 
 	position:absolute;
-	top:20%;
+	top:14%;
 	color:#ffffff; 
 	font-size:18px; 
  }
