@@ -210,10 +210,97 @@ ul {
 	max-width: 450px
 }
 
+#skill-sec .skills-wrapper {
+	padding: 30px
+}
+
+
+#skill-sec .skills-wrapper .propress_nb{ 
+	position:absolute;
+	top:25%;
+	color:#000000; 
+	font-size:20px; 
+ }
+ 
+#skill-sec .skills-wrapper .progress { 
+	width:90%; 
+	position:relative;
+	overflow:hidden;
+	margin:25px auto 0 0;
+	height: 40px;
+	background-color: #ffffff;
+	
+}
+
+/*
+  -webkit-transition: width 0.1s ease;
+  transition: width 0.1s ease;
+*/
+#skill-sec .skills-wrapper .progress-bar { 
+  position:absolute;
+  width: 60%;
+  height: 100%;
+  margin-left:80px;
+  font-size: 1px;
+  color: #ffffff;
+  text-align: center;
+  background-color: #F45540;
+  box-shadow: inset 0 -10px rgba(0, 0, 0, 0.1);
+
+}
+
+#skill-sec .skills-wrapper .progress-striped .progress-bar {
+
+	background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  	background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+	background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
+	background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+	background-size: 50px 50px;
+	border-radius:25px;
+}
+
+
+/*  
 
 
 
-/*odd example*/
+  */
+
+#skill-sec .skills-wrapper .progress.active .progress-bar {
+  -webkit-animation: progress-bar-stripes 2s linear infinite;
+  -moz-animation: progress-bar-stripes 2s linear infinite;
+  -ms-animation: progress-bar-stripes 2s linear infinite;
+  -o-animation: progress-bar-stripes 2s linear infinite;
+  animation: progress-bar-stripes 2s linear infinite;
+}
+
+#skill-sec .skills-wrapper .progress-striped .progress-bar-danger {
+  background-color: #F45540;
+}
+
+#skill-sec .skills-wrapper .progress-striped .progress-bar-success {
+  background-color: #5cb85c;
+}
+
+@-webkit-keyframes progress-bar-stripes {
+  from {background-position: 0 0;
+  }
+  to {
+    background-position: 100px 0;
+  }
+}
+@keyframes progress-bar-stripes {
+  from {background-position: 0 0;
+  }
+  to {
+    background-position: 100px 0;
+  }
+}
+
+
+/*odd example
+
+*/
 
 #experience-sec .experience-wrapper {
 	padding: 30px
@@ -282,7 +369,7 @@ ul {
 	position: absolute;
 	top: 35px;
 	right: 100%;
-	border-width: 5px 35px 5px 35px;
+	border-width: 5px 65px 5px 65px;
 	border-style: solid;
 	border-color:#F45540;
 }
@@ -352,14 +439,6 @@ ul {
 }
 
 
-/*
-	display: inline-block;
-	width: 50%;
-	height: auto;
-	border-radius: 100%;
-	margin-top: 10px;
-	float: left;
-	max-width: 450px*/
 	
 #experience-sec .experience-wrapper #timeline .timeline-block .timeline-img .sprite.university {
 	background-image: url(../images/icons/neu.png);
@@ -406,7 +485,7 @@ ul {
 	background: #F45540;
 	margin-left: 0;
 	padding: 1.5em;
-	width: 45%;
+	width: 35%;
 	opacity: 1;
 	-webkit-transition: all .3s ease;
 	-moz-transition: all .3s ease;
