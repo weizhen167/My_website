@@ -18,7 +18,7 @@ ul {
 .x1 .section {
 	width: 100%;
 	height: auto;
-	min-height: 800px;
+	min-height: 750px;
 	padding: 0;
 	overflow: hidden;
 	position: relative
@@ -338,7 +338,7 @@ ul {
 
 */
 .exp-back-image{
-	background-image:url(../images/exp.jpg);
+	background-image:url(../images/exp2.jpg);
 	background-repeat:no-repeat;
     background-size:100% 100%;
 	width:100%;
@@ -349,7 +349,7 @@ ul {
 #experience-sec .experience-wrapper {
 	padding: 30px;
 	font-family:"lr_ot4","arial","helvetica",sans-serif;
-	opacity:0.7;
+	opacity:1;
 }
 
 #experience-sec .experience-wrapper #timeline {
@@ -479,12 +479,12 @@ ul {
 
 	
 #experience-sec .experience-wrapper #timeline .timeline-block .timeline-img .sprite.university {
-	background-image: url(../images/icons/neu.png);
+	background-image: url(../images/icons/neu-trans.jpg);
 
 }
 
 #experience-sec .experience-wrapper #timeline .timeline-block .timeline-img .sprite.microsoft {
-	background-image: url(../images/icons/microsoft.png);
+	background-image: url(../images/icons/microsoft-trans.jpg);
 }
 
 #experience-sec .experience-wrapper #timeline .timeline-block .timeline-img .sprite.statestreet {
@@ -503,11 +503,11 @@ ul {
 #experience-sec .experience-wrapper #timeline .timeline-block .timeline-content {
 	float: right;
 	position: relative;
-	background: #e9ecec;
+	background: #ffffff;
 	margin-left: 0;
 	padding: 1.5em;
 	width: 35%;
-	opacity: 1;
+	opacity: 0.85;
 	-webkit-transition: all .3s ease;
 	-moz-transition: all .3s ease;
 	transition: all .3s ease
@@ -520,7 +520,7 @@ ul {
 	margin-bottom: -17px;
 	padding: 1.5em;
 	position: relative;
-	background: #232323;
+	background: #ffffff;
 	opacity: 1;
 	/*
 	float: right;
@@ -561,7 +561,7 @@ ul {
 
 /*zhiwei de miaoshu***********/
 #experience-sec .experience-wrapper #timeline .timeline-block .timeline-content .position {
-	color:#F45540;
+	color:#0c121c;
 	margin: 5px 0 10px;
 	font-size: 18px;
 	display: inline-block;
@@ -575,7 +575,7 @@ ul {
 }
 
 #experience-sec .experience-wrapper #timeline .timeline-block .timeline-content .company a {
-	color: #F4A340;
+	color: #F45540;
 	display: inline;
 	-webkit-transition: all .3s ease;
 	-moz-transition: all .3s ease;
@@ -588,14 +588,14 @@ ul {
 	margin: 1em 0;
 	font-size: 1em;
 	line-height: 1.5;
-	color: #e9ecec
+	color: #0c121c
 }
 
 #experience-sec .experience-wrapper #timeline .timeline-block .date {
 	font-size: 15px;
 	font-weight: 500;
 	display: inline-block;
-	color: #e9ecec;
+	color: #0c121c;
 	text-transform: uppercase;
 	position: absolute;
 	width: 100%;
