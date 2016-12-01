@@ -156,7 +156,7 @@ ul {
 	height: 20px;
 	width: 20px;
 	border-radius: 50%;
-	background-color: #f2f2f2;/*!!!!!*/
+	background-color: #ffffffs;/*!!!!!*/
 	-webkit-transition: -webkit-transform .2s,background-color .5s;
 	-moz-transition: -moz-transform .2s,background-color .5s;
 	transition: transform .2s,background-color .5s;
@@ -296,16 +296,20 @@ ul {
 	background-color:#0c121c;
 	color:#e9ecec;
 	width:100px;
-	margin-right:30px;
-	margin-bottom:30px;
+	margin-left:30px;
+	margin-top:30px;
+	border-radius:0px;
+	opacity:0.9;
 }
 
 #skill-sec .skills-wrapper .blkbutton1{
 	background-color:#0c121c;
 	color:#e9ecec;
 	width:282px;
-	margin-right:30px;
-	margin-bottom:30px;
+	margin-left:30px;
+	margin-top:30px;
+	border-radius:0px;
+	opacity:0.9;
 }
 
 #skill-sec .skills-wrapper .blkbutton:hover,#skill-sec .skills-wrapper .blkbutton1:hover{
@@ -315,8 +319,8 @@ ul {
 
 #skill-sec .skills-wrapper .skills-tabs-wrapper{
 	top:10px;
-	min-height:250px;
-	height:auto
+	min-height:200px;
+	height:auto;
 }
 
 	
@@ -368,7 +372,8 @@ ul {
 	left: calc(50% - 3px);
 	height: 100%;
 	width:6px;
-	background: #e9ecec
+	background: #ffffff;
+    opacity: 0.5;
 }
 
 
@@ -376,7 +381,8 @@ ul {
 #experience-sec .experience-wrapper #timeline:after {
 	content: '';
 	display: table;
-	clear: both
+	clear: both;
+	opacity: 0.7;
 }
 
 #experience-sec .experience-wrapper #timeline .timeline-block {
@@ -430,6 +436,7 @@ ul {
 	left: 50%;
 	margin-left: -45px;
 	background: #e9ecec;
+	opacity: 0.8;
 	/*
 	
 	
@@ -450,7 +457,8 @@ ul {
 	position: absolute;
 	width: 90px;
 	height:90px;
-	background: #e9ecec ;
+	background: #ffffff ;
+	opacity: 0;
 	/*
 	
 	margin-left: -25px;
@@ -473,26 +481,28 @@ ul {
 	height:90px;
 	position: relative;
 	background-repeat: no-repeat;
-	background-size: 100%
+	background-size: 100%;
+	opacity: 1;
+	
 }
 
 
 	
 #experience-sec .experience-wrapper #timeline .timeline-block .timeline-img .sprite.university {
-	background-image: url(../images/icons/neu.png);
+	background-image: url(../images/icons/neu-trans.png);
 
 }
 
 #experience-sec .experience-wrapper #timeline .timeline-block .timeline-img .sprite.microsoft {
-	background-image: url(../images/icons/microsoft.png);
+	background-image: url(../images/icons/microsoft-trans.png);
 }
 
 #experience-sec .experience-wrapper #timeline .timeline-block .timeline-img .sprite.statestreet {
-	background-image: url(../images/icons/statestreet.png);
+	background-image: url(../images/icons/statestreet-trans.png);
 }
 
 #experience-sec .experience-wrapper #timeline .timeline-block .timeline-img .sprite.sefas {
-	background-image: url(../images/icons/sefas.png);
+	background-image: url(../images/icons/sefas-trans.png);
 }
 
 
@@ -507,7 +517,7 @@ ul {
 	margin-left: 0;
 	padding: 1.5em;
 	width: 35%;
-	opacity: 0.85;
+	opacity: 0.8;
 	-webkit-transition: all .3s ease;
 	-moz-transition: all .3s ease;
 	transition: all .3s ease
@@ -533,7 +543,8 @@ ul {
 
 /*tubiaoshubiaoxuanting yuanxing*/
 #experience-sec .experience-wrapper #timeline .timeline-block .timeline-content:hover+.timeline-img {
-	background: #016936 
+	background: #ffffff ;
+	opacity: 1;
 }
 
 
@@ -592,6 +603,32 @@ ul {
 	color: #0c121c
 }
 
+#experience-sec .experience-wrapper #timeline .timeline-block .timeline-content .date-block {
+	width:50%;
+	height:40px;
+	background-color:#0c121c;
+	color:#e9ecec;
+	text-align: center;
+}
+
+
+/*jiantou*/
+#experience-sec .experience-wrapper .down-arrow {
+	display: block;
+	margin: 0 auto;
+	border-color: #e9ecec transparent transparent;
+	border-style: solid;
+	border-width: 30px 14px 0;
+	width: 0;
+	height: 0;
+	position: relative;
+	line-height: 0;
+	opacity:0.6;
+}
+
+
+
+/*
 #experience-sec .experience-wrapper #timeline .timeline-block .date {
 	font-size: 15px;
 	font-weight: 500;
@@ -621,18 +658,7 @@ ul {
 	right: -33%
 }
 
-/*jiantou*/
-#experience-sec .experience-wrapper .down-arrow {
-	display: block;
-	margin: 0 auto;
-	border-color: #e9ecec transparent transparent;
-	border-style: solid;
-	border-width: 30px 14px 0;
-	width: 0;
-	height: 0;
-	position: relative;
-	line-height: 0
-}
+*/
 
 
 #project-sec .pro-wrapper {
