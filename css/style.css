@@ -479,12 +479,12 @@ ul {
 
 	
 #experience-sec .experience-wrapper #timeline .timeline-block .timeline-img .sprite.university {
-	background-image: url(../images/icons/neu-trans.jpg);
+	background-image: url(../images/icons/neu.png);
 
 }
 
 #experience-sec .experience-wrapper #timeline .timeline-block .timeline-img .sprite.microsoft {
-	background-image: url(../images/icons/microsoft-trans.jpg);
+	background-image: url(../images/icons/microsoft.png);
 }
 
 #experience-sec .experience-wrapper #timeline .timeline-block .timeline-img .sprite.statestreet {
@@ -562,9 +562,10 @@ ul {
 /*zhiwei de miaoshu***********/
 #experience-sec .experience-wrapper #timeline .timeline-block .timeline-content .position {
 	color:#0c121c;
-	margin: 5px 0 10px;
-	font-size: 18px;
+	margin-top:-20px;
+	font-size: 26px;
 	display: inline-block;
+	font-weight:bold;
 	text-transform: uppercase;
 }
 
@@ -611,7 +612,7 @@ ul {
 #experience-sec .experience-wrapper #timeline .timeline-block .date-right {
 	text-align: right;
 	left: auto;
-	right: 35.4%
+	right: 35.7%
 }
 
 #experience-sec .experience-wrapper #timeline .timeline-block:nth-child(odd) .timeline-content .date {
