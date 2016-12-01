@@ -1,15 +1,19 @@
 <!DOCTYPE html>
-<html lang="en-us" class="skrollr skrollr-desktop">
+<html lang="en-us" >
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>test</title>
+	<link href="../css/bootstrap.min.css" rel="stylesheet">
+	<link href="../css/brandFonts.css" rel="stylesheet">
 	<link href="../css/zhen-main.css" rel="stylesheet">
 	<link href="../css/style.css" rel="stylesheet">
+
+
   </head>
   
-  <body> 
+  <body id="page-top"> 
   
   <nav id="dot-nav" style="display: block;">
    <ul>
@@ -45,82 +49,82 @@
   
   <section class="section" id="about-sec">
    <div class="section-wrapper">
+      <span class="divider"></span>
       <h1 class="heading">Hi, I'm Zhen Wei.</h1>
 	  <span class="divider"></span>
-	  <div class="about-wrapper">		  
-		<img class="headshot" src="../images/head.jpg" alt="headshot">
-		<div class="about-text-wrapper">
-	      <h6 class="subheading"> Yes, that would work also work with nth-of-type, but it's more specific than you need. There are situations when you simply have to use one over the other. That alone means both pseudo-classes are useful. If you really want me to, I'll make a demo showing a situation where nth-child does what I want where nth-of-type doesn't</h6>
+	  <div class="about-wrapper row">
+       	  
+		<div class="col-lg-5">  
+		  <img class="headshot" src="../images/head.jpg">
 		</div>
+		  
+		<div class="col-lg-1"></div>
+		<div class="col-lg-6">
+	      <p class="subheading about-text-wrapper"> Yes, that would work also work with nth-of-type, but it's more specific than you need. There are situations when you simply have to use one over the other. That alone means both pseudo-classes are useful. If you really want me to, I'll make a demo showing a situation where nth-child does what I want where nth-of-type doesn't</p>
+		</div>
+		
+
+		
+		
+		
 	  </div>
    </div>
   </section>
 
+  
   <section class="section" id="skill-sec"> 
    <div class="section-wrapper"> 
-    <h1 class="heading">My Skills</h1> 
+    <span class="divider"></span>
+    <h1 class="heading">MY SKILL</h1> 
     <span class="divider"></span> 
     <div class="skills-wrapper"> 
 	  <div class="row">
-		<div class="col-lg-6"> 
-			<div class="progress  progress-striped active"> 
-		   <div class="propress_nb">JAVA</div> 
-		   <div class="progress-bar" style="width:80%;background-color:#b07219"> 
-		   </div> 
-		  </div> 
+	    <div class="col-lg-6 col-md-6 skills-tabs-wrapper"> 
+		  <h3 style="text-decoration: underline">Languages<h3>
+		  <button type="button" class="btn btn-primary blkbutton">JAVA</button>
+          <button type="button" class="btn btn-primary blkbutton">PYTHON</button>
+		  <button type="button" class="btn btn-primary blkbutton">JavaScript</button>
+		  <button type="button" class="btn btn-primary blkbutton">HTML</button>
+		  <button type="button" class="btn btn-primary blkbutton">CSS</button>
+		  <button type="button" class="btn btn-primary blkbutton">C</button>
+		  <button type="button" class="btn btn-primary blkbutton">SQL</button>
+		  <button type="button" class="btn btn-primary blkbutton">R</button>
 
-		 
-		 
-		  
-		  <div class="progress  progress-striped active"> 
-		   <div class="propress_nb">Python</div> 
-		   <div class="progress-bar" style="width:60%;background-color:#3572A5"> 
-		   </div> 
-		  </div> 
-
-		 
-		 
-		  
-		  <div class="progress  progress-striped active"> 
-		   <div class="propress_nb">MySQL</div> 
-		   <div class="progress-bar" style="width:60%;background-color:#cccccc"> 
-		   </div> 
-		  </div> 
-
-		 
-		 
-		  
-		  <div class="progress  progress-striped active"> 
-		   <div class="propress_nb">HTML</div> 
-		   <div class="progress-bar" style="width:20%;background-color:#e44b23"> 
-		   </div> 
-		  </div> 
-
-		 
-		 
-		  
-		  <div class="progress  progress-striped active"> 
-		   <div class="propress_nb">CSS</div> 
-		   <div class="progress-bar" style="width:20%;background-color:#563d7c"> 
-		   </div> 
-		  </div> 
-
-		 
-		 
-		  
-		  <div class="progress  progress-striped active"> 
-		   <div class="propress_nb">JS</div> 
-		   <div class="progress-bar" style="width:20%;background-color:#f1e05a"> 
-		   </div> 
-		  </div> 
 		</div>
-	
-	
-	
-	
-	
-		<div class="col-lg-6">
-		  tubiao men
+		<div class="col-lg-6 col-md-6 skills-tabs-wrapper">
+		  <h3 style="text-decoration: underline">Development<h3>
+		  <button type="button" class="btn btn-primary blkbutton">Agile</button>
+		  <button type="button" class="btn btn-primary blkbutton">Scrum</button>
+		  <button type="button" class="btn btn-primary blkbutton">UX Design</button>
+		  <button type="button" class="btn btn-primary blkbutton">Use Case</button>
+		</div>
+		<div class="col-lg-6 col-md-6 skills-tabs-wrapper">
+		  <h3 style="text-decoration: underline">Tools/Software <h3>
+		  <button type="button" class="btn btn-primary blkbutton">Jazz RTC</button>
+		  <button type="button" class="btn btn-primary blkbutton">SharePoint</button>
+		  <button type="button" class="btn btn-primary blkbutton">Lync server</button>
+		  <button type="button" class="btn btn-primary blkbutton">Exchange</button>
+		  <button type="button" class="btn btn-primary blkbutton">Pycharm</button>
+		</div>
+		<div class="col-lg-6 col-md-6 skills-tabs-wrapper">
+		  <h3 style="text-decoration: underline">Frameworks <h3>
+		  <button type="button" class="btn btn-primary blkbutton">AngularJS</button>
+		  <button type="button" class="btn btn-primary blkbutton">jQuery</button>
+		  <button type="button" class="btn btn-primary blkbutton">Bootstrap</button>
+
+		</div>
+		
+		<div class="col-lg-12 col-md-12 skills-tabs-wrapper ">
+		  <h3 class="text-center" style="text-decoration: underline">Relevant courses<h3>
+		   
+		  <button type="button" class="btn btn-primary blkbutton1">Software Development</button>
+		  <button type="button" class="btn btn-primary blkbutton1">Human Computer Interaction</button>
+		  <button type="button" class="btn btn-primary blkbutton1">Object-Oriented Design</button>
+		  <button type="button" class="btn btn-primary blkbutton1">Database Design</button>
+		  <button type="button" class="btn btn-primary blkbutton1">Algorithms</button>
+		  <button type="button" class="btn btn-primary blkbutton1">System</button>
+		  <button type="button" class="btn btn-primary blkbutton1">NetWork</button>
+
 		</div>
 	  </div> 
      </div> 
@@ -129,8 +133,9 @@
   
   
   
-  <section class="section" id="experience-sec">
+  <section class="section exp-back-image" id="experience-sec" >
    <div class="section-wrapper">
+      <span class="divider"></span>
      <h1 class="heading">My Experience</h1>
 	  <span class="divider"></span>
 	  
@@ -210,13 +215,71 @@
   
   <section class="section" id="project-sec">
    <div class="section-wrapper">
+      <span class="divider"></span>
      <h1 class="heading">My Projects</h1>
 	  <span class="divider"></span>
+	  
+	   <div class="pro-wrapper"> 
+	     <div class="row">
+		 
+	       <div class="col-lg-4 col-md-4 col-sm-4 project-wrapper"> 
+		   <p class="img-project1"></p>
+		   <h4 class="text-center " style="text-decoration: underline">project1<h4>
+		       <h5>Yes, that would work also work with nth-of-type</h5>
+			   <h5 class="text-center" style="color:#898ca8">Find Out More >></h5>
+		   </div>
+		   
+		   
+		   <div class="col-lg-4 col-md-4 col-sm-4 project-wrapper"> 
+		   <p class="img-project2"></p>
+		   <h4 class="text-center" style="text-decoration: underline">project2<h4>
+		       <h5>Yes, that would work also work with nth-of-type</h5>
+			   <h5 class="text-center" style="color:#898ca8">Find Out More >></h5>
+		   </div>
+		   
+		   
+		   <div class="col-lg-4 col-md-4 col-sm-4 project-wrapper"> 
+		   <p class="img-project3"></p>
+		   <h4 class="text-center" style="text-decoration: underline">project3<h4>
+		       <h5>Yes, that would work also work with nth-of-type</h5>
+			   <h5 class="text-center" style="color:#898ca8">Find Out More >></h5>
+		   </div>
+		   
+		   
+		   <div class="col-lg-4 col-md-4 col-sm-4 project-wrapper"> 
+		   <p class="img-project4"></p>
+		   <h4 class="text-center" style="text-decoration: underline">project4<h4>
+		       <h5>Yes, that would work also work with nth-of-type</h5>
+			   <h5 class="text-center" style="color:#898ca8">Find Out More >></h5>		   
+		   </div>
+		   
+		   
+		   <div class="col-lg-4 col-md-4 col-sm-4 project-wrapper"> 
+		   <p class="img-project5"></p>
+		   <h4 class="text-center" style="text-decoration: underline">project5<h4>
+		       <h5>Yes, that would work also work with nth-of-type</h5>
+			   <h5 class="text-center" style="color:#898ca8">Find Out More >></h5>
+		   </div>
+		   
+		   
+		   <div class="col-lg-4 col-md-4 col-sm-4 project-wrapper"> 
+		   <p class="img-project6"></p>
+		   <h4 class="text-center" style="text-decoration: underline">project6<h4>
+		       <h5>Yes, that would work also work with nth-of-type</h5>
+			   <h5 class="text-center" style="color:#898ca8">Find Out More >></h5>
+		   </div>
+		   
+		   
+		 </div>
+	   </div>
+	  
+	  
    </div>
   </section>
   
-  <section class="section" id="contact-sec">
+  <section class="section" id="contact-sec" style="background-color:#4A4F54">
    <div class="section-wrapper">
+      <span class="divider"></span>
      <h1 class="heading">Contact Me</h1>
 	  <span class="divider"></span>
    </div>
@@ -234,3 +297,43 @@
  
 </html>
 
+
+<!--jindutiao!!!-div class="col-lg-6 skills-wrapper"> Languages
+		
+			<div class="progress  progress-striped active"> 
+		   <div class="propress_nb">JAVA</div> 
+		   <div class="progress-bar" style="width:80%;background-color:#b07219"> 
+		   </div> 
+		  </div> 
+ 		  
+		  <div class="progress  progress-striped active"> 
+		   <div class="propress_nb">Python</div> 
+		   <div class="progress-bar" style="width:60%;background-color:#3572A5"> 
+		   </div> 
+		  </div> 
+		  
+		  <div class="progress  progress-striped active"> 
+		   <div class="propress_nb">MySQL</div> 
+		   <div class="progress-bar" style="width:60%;background-color:#cccccc"> 
+		   </div> 
+		  </div> 
+	  
+		  <div class="progress  progress-striped active"> 
+		   <div class="propress_nb">HTML</div> 
+		   <div class="progress-bar" style="width:20%;background-color:#e44b23"> 
+		   </div> 
+		  </div> 
+		  
+		  <div class="progress  progress-striped active"> 
+		   <div class="propress_nb">CSS</div> 
+		   <div class="progress-bar" style="width:20%;background-color:#563d7c"> 
+		   </div> 
+		  </div> 
+		 
+		  <div class="progress  progress-striped active"> 
+		   <div class="propress_nb">JS</div> 
+		   <div class="progress-bar" style="width:20%;background-color:#f1e05a"> 
+		   </div> 
+		  </div> 
+</div-->
+	

@@ -1,5 +1,11 @@
 #F45540 hong
 #F4A340 cheng
-#381611  hei
+#0c121c hei
 
 #232323 beijinghei
+
+
+#e9ecec bai
+
+font-family:"Avenir","arial","helvetica",sans-serif;
+font-family:"lr_ot4","arial","helvetica",sans-serif;
