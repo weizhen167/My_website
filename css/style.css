@@ -156,7 +156,7 @@ ul {
 	height: 20px;
 	width: 20px;
 	border-radius: 50%;
-	background-color: #ffffffs;/*!!!!!*/
+	background-color: #ffffff;/*!!!!!*/
 	-webkit-transition: -webkit-transform .2s,background-color .5s;
 	-moz-transition: -moz-transform .2s,background-color .5s;
 	transition: transform .2s,background-color .5s;
@@ -347,7 +347,6 @@ ul {
     background-size:100% 100%;
 	width:100%;
 	z-index:-500%;
-	
 }
 
 #experience-sec .experience-wrapper {
@@ -626,7 +625,28 @@ ul {
 	opacity:0.6;
 }
 
+.section-resume {
+	background-color:#0c121c;
+	min-height:100px;
+	max-height:100px;
+}
 
+
+#resume-sec .blkbutton{
+	background-color:#0c121c;
+	font-size:60px;
+	border-color:transparent;
+	color:#e9ecec;
+	width:100%;
+	height:100%;
+}
+
+
+#resume-sec .blkbutton:hover{
+	background-color:#ffffff;
+	color:#0c121c;
+	opacity:1;
+}
 
 /*
 #experience-sec .experience-wrapper #timeline .timeline-block .date {
