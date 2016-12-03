@@ -35,6 +35,7 @@ ul {
 	font-weight: bold;
 	overflow: hidden;
 	opacity: 1;
+	z-index:5;
 }
 
 .x1 .section .section-wrapper .divider{	
@@ -746,9 +747,14 @@ ul {
 	height:260px;
 }
 
+#contact-sec .section-wrapper{
+	margin-top:-800px;
+	bottom:0;
+	opacity:0.99;
+	background-color;#000000;
+}
 
 #contact-sec .blkbutton{
-	margin-top:20px;
 	background-repeat:no-repeat;
     background-size:100% 100%;
 	background-color:#0c121c;
@@ -756,7 +762,8 @@ ul {
 	width:50px;
 	height:50px;
 	margin-left:30px;
-	margin-top:30px;
+	margin-bottom:13px;
+	border-radius:0px;
 	opacity:0.9;
 }
 
@@ -776,11 +783,52 @@ ul {
 	background-image:url(../images/icons/weixin-trans.png)
 }
 			
-#contact-sec .blkbutton:hover{
-	background-color:#e9ecec;
-	border-color:#e9ecec;
+#contact-sec .blkbutton.linkedin:hover{
+	background-color:#0077B5;
+	border-color:#0077B5;
 }
 
+#contact-sec .blkbutton.github:hover{
+	background-color:#7a3497;
+	border-color:#7a3497;
+}
+
+#contact-sec .blkbutton.email:hover{
+	background-color:#DE5044;
+	border-color:#DE5044;
+}
+
+#contact-sec .blkbutton.phone:hover{
+	background-color:#FBBC05;
+	border-color:#FBBC05;
+}
+
+#contact-sec .blkbutton.weixin:hover{
+	background-color:#3E9609;
+	border-color:#3E9609;
+}
+
+#contact-sec strong{
+	display: table-cell;
+	vertical-align:middle;
+	padding-left: 20px;
+	color:#e9ecec;
+	font-weight:normal;
+	font-size:5px
+	font-family:"lr_ot4","arial","helvetica",sans-serif;
+}
+
+#contact-sec .bgvid {
+	position: static;
+	min-width: 100%; 
+	max-height: 100%; 
+	width: auto; 
+	height: auto; 
+	z-index: -100; 
+	background-size: cover;
+	opacity:0.3;
+	background:url(../images/exp.jpg) no-repeat;
+}
 /*-------------------------------------------------------------------------
 
 #footer .soc,ul {
