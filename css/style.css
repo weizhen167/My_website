@@ -96,7 +96,7 @@ ul {
 
 #dot-nav {
 	position: fixed;
-	right: 34px;
+	right: 20px;
 	top: 50%;
 	bottom: auto;
 	-webkit-transform: translateY(-50%);
@@ -152,7 +152,7 @@ ul {
 
 #dot-nav .dot {
 	position: relative;
-	top: 7px;
+	top: 10px;
 	height: 20px;
 	width: 20px;
 	border-radius: 50%;
@@ -171,13 +171,13 @@ ul {
 
 #dot-nav .dot-label {
 	position: relative;
-	top: -6px;
+	top: 1px;
 	padding: .4em .5em;
 	color: #F45540;/*!!!!!*/
-	font-size: 1.5em;
-	font-weight: 500;
+	font-size: 17px;
+	font-weight: bold;
 	text-transform: uppercase;
-	opacity: 0;
+	opacity: -30;
 	-webkit-transition: -webkit-transform .2s,opacity .2s;
 	-moz-transition: -moz-transform .2s,opacity .2s;
 	transition: transform .2s,opacity .2s;
@@ -294,6 +294,7 @@ ul {
   
 #skill-sec .skills-wrapper .blkbutton{
 	background-color:#0c121c;
+	border-color:#0c121c;
 	color:#e9ecec;
 	width:100px;
 	margin-left:30px;
@@ -422,7 +423,7 @@ ul {
 	right: 100%;
 	border-width: 3px 65px 3px 65px;
 	border-style: solid;
-	border-color:#e9ecec;
+	border-color:#ffffff;
 }
 
 
@@ -434,7 +435,7 @@ ul {
 	top: -10px;
 	left: 50%;
 	margin-left: -45px;
-	background: #e9ecec;
+	background: #ffffff;
 	opacity: 0.8;
 	/*
 	
@@ -635,7 +636,7 @@ ul {
 #resume-sec .blkbutton{
 	background-color:#0c121c;
 	font-size:60px;
-	border-color:transparent;
+	border-color:#0c121c;
 	color:#e9ecec;
 	width:100%;
 	height:100%;
@@ -644,6 +645,7 @@ ul {
 
 #resume-sec .blkbutton:hover{
 	background-color:#ffffff;
+	border-color:#ffffff;
 	color:#0c121c;
 	opacity:1;
 }
@@ -745,6 +747,39 @@ ul {
 }
 
 
+#contact-sec .blkbutton{
+	margin-top:20px;
+	background-repeat:no-repeat;
+    background-size:100% 100%;
+	background-color:#0c121c;
+	border-color:#0c121c;
+	width:50px;
+	height:50px;
+	margin-left:30px;
+	margin-top:30px;
+	opacity:0.9;
+}
+
+#contact-sec .blkbutton.linkedin{
+	background-image:url(../images/icons/linkedin-trans.png)
+}
+#contact-sec .blkbutton.github{
+	background-image:url(../images/icons/github-trans.png)
+}
+#contact-sec .blkbutton.email{
+	background-image:url(../images/icons/email-trans.png)
+}
+#contact-sec .blkbutton.phone{
+	background-image:url(../images/icons/phone-trans.png)
+}
+#contact-sec .blkbutton.weixin{
+	background-image:url(../images/icons/weixin-trans.png)
+}
+			
+#contact-sec .blkbutton:hover{
+	background-color:#e9ecec;
+	border-color:#e9ecec;
+}
 
 /*-------------------------------------------------------------------------
 
