@@ -211,9 +211,10 @@ ul {
 #about-sec .about-wrapper .headshot {
 	display: inline-block;
 	height: auto;
-	border-radius: 50%;
-	margin-top: 30px;
-	width:100%;
+	/*border-radius: 50%;*/
+	margin-top: 50px;
+	margin-left:130px;
+	width:auto;
 }
 
 #skill-sec .skills-wrapper {
@@ -748,10 +749,10 @@ ul {
 }
 
 #contact-sec .section-wrapper{
-	margin-top:-800px;
+	/*margin-top:-800px;*/
 	bottom:0;
 	opacity:0.99;
-	background-color;#000000;
+	background-color:#4A4F54;
 }
 
 #contact-sec .blkbutton{
@@ -829,6 +830,37 @@ ul {
 	opacity:0.3;
 	background:url(../images/exp.jpg) no-repeat;
 }
+
+#contact-sec .form-control{
+	font-size:28px;
+	margin-top:30px;
+	height:auto;
+	width:80%;
+	margin-left:340px;
+	background-color:transparent;
+	border-color:transparent transparent #e9ecec transparent;
+	border-bottom-width:3px;
+	color:#e9ecec;
+	box-shadow: 0px 0px 0px transparent;
+}
+
+#contact-sec .par{
+	color:#e9ecec;
+	font-size:18px;
+	text-align:center;
+	margin-left:280px;
+	margin-top:-20px;
+}
+
+#contact-sec .blkbutton.submit{
+	background-color:#0c121c;
+	border-color:#0c121c;
+	width:150px;
+	height:50px;
+	border-radius:0px;
+	opacity:0.9;
+}
+
 /*-------------------------------------------------------------------------
 
 #footer .soc,ul {
