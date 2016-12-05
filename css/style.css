@@ -748,11 +748,32 @@ ul {
 	height:260px;
 }
 
+#contact-sec .bgvid {
+	position: fixed; 
+	left:-10;
+	right: 0; 
+	bottom: 0; 
+	min-width: 100%; 
+	max-height: 100%; 
+	width: 100%; 
+	height: auto; 
+	z-index: -100; 
+	background-size: cover;
+	opacity:1;
+	/*background:url(../images/exp.jpg) no-repeat;*/
+	poster:url(../images/exp.jpg);
+}
+
 #contact-sec .section-wrapper{
-	/*margin-top:-800px;*/
+	/*margin-top:-800px;
+	background-color:#4A4F54
+	;
+	*/
 	bottom:0;
-	opacity:0.99;
-	background-color:#4A4F54;
+	background-color:#0c121c;
+	opacity:0.8;
+	
+	
 }
 
 #contact-sec .blkbutton{
@@ -777,8 +798,8 @@ ul {
 #contact-sec .blkbutton.email{
 	background-image:url(../images/icons/email-trans.png)
 }
-#contact-sec .blkbutton.phone{
-	background-image:url(../images/icons/phone-trans.png)
+#contact-sec .blkbutton.blog{
+	background-image:url(../images/icons/blog-trans.png)
 }
 #contact-sec .blkbutton.weixin{
 	background-image:url(../images/icons/weixin-trans.png)
@@ -799,10 +820,11 @@ ul {
 	border-color:#DE5044;
 }
 
-#contact-sec .blkbutton.phone:hover{
+#contact-sec .blkbutton.blog:hover{
 	background-color:#FBBC05;
 	border-color:#FBBC05;
 }
+
 
 #contact-sec .blkbutton.weixin:hover{
 	background-color:#3E9609;
@@ -819,27 +841,18 @@ ul {
 	font-family:"lr_ot4","arial","helvetica",sans-serif;
 }
 
-#contact-sec .bgvid {
-	position: static;
-	min-width: 100%; 
-	max-height: 100%; 
-	width: auto; 
-	height: auto; 
-	z-index: -100; 
-	background-size: cover;
-	opacity:0.3;
-	background:url(../images/exp.jpg) no-repeat;
-}
+  
+
 
 #contact-sec .form-control{
 	font-size:28px;
 	margin-top:30px;
 	height:auto;
-	width:80%;
-	margin-left:340px;
+	width:90%;
+	margin-right:40px;
 	background-color:transparent;
 	border-color:transparent transparent #e9ecec transparent;
-	border-bottom-width:3px;
+	border-bottom-width:5px;
 	color:#e9ecec;
 	box-shadow: 0px 0px 0px transparent;
 }
@@ -848,18 +861,26 @@ ul {
 	color:#e9ecec;
 	font-size:18px;
 	text-align:center;
-	margin-left:280px;
+	margin-left:-14%;
 	margin-top:-20px;
 }
 
 #contact-sec .blkbutton.submit{
-	background-color:#0c121c;
-	border-color:#0c121c;
+	background-color:#3E9609;
+	border-color:#3E9609;
 	width:150px;
 	height:50px;
 	border-radius:0px;
-	opacity:0.9;
+	opacity:1;
 }
+
+#contact-sec .blkbutton.submit:hover{
+	background-color:#e9ecec;
+	border-color:#e9ecec;
+	color:#0c121c;
+}
+
+
 
 /*-------------------------------------------------------------------------
 
