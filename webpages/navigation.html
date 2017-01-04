@@ -60,11 +60,6 @@
 		<div class="col-lg-6">
 	      <p class="subheading about-text-wrapper"> Yes, that would work also work with nth-of-type, but it's more specific than you need. There are situations when you simply have to use one over the other. That alone means both pseudo-classes are useful. If you really want me to, I'll make a demo showing a situation where nth-child does what I want where nth-of-type doesn't</p>
 		</div>
-		
-
-		
-		
-		
 	  </div>
    </div>
   </section>
@@ -75,6 +70,7 @@
     <span class="divider"></span>
     <h1 class="heading">MY SKILLS & KNOWLEDGE</h1> 
     <span class="divider"></span> 
+	
     <div class="skills-wrapper"> 
 	  <div class="row">
 	    <div class="col-lg-6 col-md-6 skills-tabs-wrapper"> 
@@ -110,7 +106,7 @@
 		</div>
 		<div class="col-lg-6 col-md-6 skills-tabs-wrapper">
 		  <h3 style="text-decoration: underline;text-align:left;">Frameworks/libraries</h3>
-		  <button type="button" class="btn btn-primary blkbutton">Anaconda</button>
+		  <!--button type="button" class="btn btn-primary blkbutton">Anaconda</button-->
 		  <button type="button" class="btn btn-primary blkbutton">scikit-learn</button>
 		  <button type="button" class="btn btn-primary blkbutton">AngularJS</button>
 		  <button type="button" class="btn btn-primary blkbutton">jQuery</button>
@@ -118,7 +114,7 @@
 
 		</div>
 		
-		<div class="col-lg-12 col-md-12 skills-tabs-wrapper ">
+		<!--div class="col-lg-12 col-md-12 skills-tabs-wrapper ">
 		  <h3 class="text-center" style="text-decoration: underline">Relevant courses</h3>
 		   
 		  <button type="button" class="btn btn-primary blkbutton1">Software Development</button>
@@ -129,7 +125,7 @@
 		  <button type="button" class="btn btn-primary blkbutton1">System</button>
 		  <button type="button" class="btn btn-primary blkbutton1">NetWork</button>
 
-		</div>
+		</div-->
 	  </div> 
      </div> 
    </div> 
@@ -313,18 +309,18 @@
 			  <ul  style="min-height:450px;">
 			  
 				<li>
-				  <input type="text" class="form-control" placeholder="Your Email Address">
+				  <input type="text" class="form-control" placeholder="Your Email Address" id = "user-email">
 				</li>
 
 				<li>
-				  <input type="text" class="form-control" placeholder="Your Name">
+				  <input type="text" class="form-control" placeholder="Your Name" id = "user-name">
 				</li>
 
 				<li>
-				  <input type="text" class="form-control" placeholder="Anything you want to tell me"> 
+				  <input type="text" class="form-control" placeholder="Anything you want to tell me" id = "user-context"> 
 				</li>
 
-                <li class="par" style="margin-top:90px"><button type="button" class="btn btn-primary blkbutton submit"> Submit</button><li>
+                <li class="par" style="margin-top:90px"><button type="button" class="btn btn-primary blkbutton submit" id = "submit-button"> Submit</button><li>
 				
 				
 			  </ul>
@@ -342,7 +338,7 @@
 	  
   <section class="section" id="fotter-sec" style="background-color:#e9ecec;max-height:40px;min-height:40px;">
    <div class="section-wrapper">
-    <h6 class="text-center" style="margin-top:0px;margin-right:-25px">©Zhen Wei 2016</h6>
+    <h6 class="text-center" style="margin-top:0px;margin-right:-25px">©Zhen Wei 2017</h6>
    </div>
   </section>  
   
@@ -354,6 +350,7 @@
   <script src="../js/bootstrap.min.js"></script>
   <!--script src="../js/skrollr.min.js"></script-->
   <script src="../js/main.min.js"></script>
+  <script src="../js/myjs.js"></script>
   </body>
   
  

@@ -44,6 +44,12 @@ function bannerPageFlash(){
     window.setInterval("setRandomColor_liyu()",700);
 }
 
-
 window.onload = bannerPageFlash;
+
+$("#submit-button").click(function(event) {
+	var a = $("#user-email").val()
+	var b = $("#user-name").val()
+	var c = $("#user-context").val()
+	alert(a+b+c)
+});
 
