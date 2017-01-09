@@ -12,8 +12,7 @@
   tt0.style.color=random_color;
   tt1.style.color=random_color;
 }
-//console.log(getRandomColor());*/
-
+//console.log(getRandomColor());
 
 
 function setRandomColor_liyu() {
@@ -46,10 +45,20 @@ function bannerPageFlash(){
 
 window.onload = bannerPageFlash;
 
+*/
+
+
 $("#submit-button").click(function(event) {
 	var a = $("#user-email").val()
 	var b = $("#user-name").val()
 	var c = $("#user-context").val()
 	alert(a+b+c)
+});
+
+$(".blkbutton.weixin").mouseover(function(){
+		$(".weixin_QRcode").show("fast");
+	$(".blkbutton.weixin").mouseout(function(){
+		$(".weixin_QRcode").hide("slow");
+});
 });
 

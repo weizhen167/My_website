@@ -39,6 +39,7 @@ ul {
 }
 
 .x1 .section .section-wrapper .divider{	
+	background-color: #F45540;
 	display: block;
     margin: 0px 0 0 35%;
     width: 30%;
@@ -63,9 +64,6 @@ ul {
     color: #e9ecec;
 }
 
-.x1 .section .section-wrapper .divider{
-    background-color: #F45540;
-}
 
 .x1 .section .section-wrapper .subheading{
 	color: #e9ecec;
@@ -344,12 +342,13 @@ ul {
 
 
 /*odd example
-
+background-size:100% 100%;
 */
 .exp-back-image{
 	background-image:url(../images/exp2.jpg);
 	background-repeat:no-repeat;
-    background-size:100% 100%;
+    
+	background-size:100% 100%;
 	width:100%;
 	z-index:-500%;
 }
@@ -403,21 +402,23 @@ ul {
 	clear: both
 }
 
+
+
+#experience-sec .experience-wrapper #timeline .timeline-block:nth-child(odd) .timeline-content {
+	float: left;
+}
+
+
+#experience-sec .experience-wrapper #timeline .timeline-block:nth-child(odd) .timeline-content:before {
+    left: 100%;
+}
+
 #experience-sec .experience-wrapper #timeline .timeline-block:first-child {
 	margin-top: 0
 }
 
 #experience-sec .experience-wrapper #timeline .timeline-block:last-child {
 	margin-bottom: 0
-}
-
-#experience-sec .experience-wrapper #timeline .timeline-block:nth-child(odd) .timeline-content {
-	float: left
-}
-
-
-#experience-sec .experience-wrapper #timeline .timeline-block:nth-child(odd) .timeline-content:before {
-    left: 100%;
 }
 
 #experience-sec .experience-wrapper #timeline .timeline-block .timeline-content:before {
@@ -754,6 +755,23 @@ ul {
 }
 
 #contact-sec .bgvid {
+	position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(../images/exp.jpg) no-repeat;
+    background-size: cover; 
+}
+
+#contact-sec .bgvid1 {
 	position: fixed; 
 	left:-10;
 	right: 0; 
@@ -809,7 +827,27 @@ ul {
 #contact-sec .blkbutton.weixin{
 	background-image:url(../images/icons/weixin-trans.png)
 }
-			
+#contact-sec .weixin_QRcode{
+	display:none;
+	width:250px;
+	height:250px;
+	left :-230px;
+	top:-150px;
+	position:relative;
+	background-image:url(../images/icons/QR.jpg);
+	background-repeat:no-repeat;
+    background-size:100% 100%;
+}
+
+@media only screen and (max-width:980px) {
+	#contact-sec .weixin_QRcode{
+	left:230px;
+	top:-150px;
+	width:200px;
+	height:200px;
+	}
+}
+	
 #contact-sec .blkbutton.linkedin:hover{
 	background-color:#0077B5;
 	border-color:#0077B5;
