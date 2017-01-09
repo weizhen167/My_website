@@ -32,6 +32,9 @@ Logic
 
 
 
+				  
+• Interacting with customers to gather requirements and discuss solutions.</br></br>
+• Working with geographically distributed teams in the USA, UK and France to collaborate in development.</br></br>
 
 
 
