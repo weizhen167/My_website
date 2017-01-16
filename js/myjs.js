@@ -48,12 +48,21 @@ window.onload = bannerPageFlash;
 */
 
 
+
 $("#submit-button").click(function(event) {
 	var a = $("#user-email").val()
 	var b = $("#user-name").val()
 	var c = $("#user-context").val()
-	alert(a+b+c)
+	$.ajax({
+	type:'post',
+	url:"../js/submit.php/submit",
+	data:{email:a,name:b,message:c},
+	success: function(data){
+		alert(data)
+	}
+	}); 
 });
+
 
 $(".blkbutton.weixin").mouseover(function(){
 		$(".weixin_QRcode").show("fast");
@@ -61,4 +70,6 @@ $(".blkbutton.weixin").mouseover(function(){
 		$(".weixin_QRcode").hide("slow");
 });
 });
+
+
 
