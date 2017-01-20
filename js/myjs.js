@@ -55,7 +55,7 @@ $("#submit-button").click(function(event) {
 	var c = $("#user-context").val()
 	$.ajax({
 	type:'post',
-	url:"../js/submit.php/submit",
+	url:"../js/submit.php",
 	data:{email:a,name:b,message:c},
 	success: function(data){
 		alert(data)

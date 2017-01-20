@@ -26,6 +26,7 @@ ul {
 
 .x1 .section .section-wrapper{
 	padding: 15px 60px;
+	
 }
 
 .x1 .section .section-wrapper .heading{
@@ -191,10 +192,14 @@ ul {
 
 
 
-/*odd example*/
-
-#about-sec .about-wrapper {
-	/*padding-right: -10px*/
+/*odd example
+*/
+.about-back-image{
+	background-image:url(../images/about_2.jpg);
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	width:100%;
+	
 }
 
 #about-sec .about-wrapper .about-text-wrapper {
@@ -367,7 +372,6 @@ background-size:100% 100%;
 .exp-back-image{
 	background-image:url(../images/exp2.jpg);
 	background-repeat:no-repeat;
-    
 	background-size:100% 100%;
 	width:100%;
 	z-index:-500%;
@@ -1035,95 +1039,7 @@ background-size:100% 100%;
 
 
 
-.overlay {
-	position: fixed;
-	background: rgba(0,183,199,.95);
-	top: 0;
-	left: 0;
-	width: 100%;
-	visibility: hidden;
-	-webkit-transition: .3s;
-	-moz-transition: .3s;
-	transition: .3s
-}
 
-.overlay .overlay-menu {
-	position: relative;
-	height: 70%;
-	-webkit-transform: translateY(-50%);
-	-moz-transform: translateY(-50%);
-	-ms-transform: translateY(-50%);
-	-o-transform: translateY(-50%);
-	transform: translateY(-50%);
-	top: 45%;
-	font-size: 1.5em;
-	font-weight: 700;
-	text-align: center
-}
-
-.overlay .overlay-menu .menu-container {
-	list-style: none;
-	padding: 0;
-	margin: 0 auto;
-	display: inline-block;
-	position: relative;
-	height: 100%
-}
-
-.overlay .overlay-menu .menu-container .menu-item {
-	display: block;
-	height: 14.25%;
-	height: calc(100% / 7);
-	min-height: 50px;
-	position: relative;
-	opacity: 0
-}
-
-
-
-
-
-.overlay .overlay-menu .menu-container .menu-item a {
-	position: relative;
-	color: #f2f2f2;
-	text-decoration: none;
-	text-transform: uppercase;
-	overflow: hidden
-}
-
-.overlay .overlay-menu .menu-container .menu-item a:after,.overlay .overlay-menu .menu-container .menu-item a:before {
-	content: '';
-	position: absolute;
-	width: 0;
-	height: 2px;
-	top: 50%;
-	background: #f2f2f2;
-	margin-top: -2px;
-	left: -3px
-}
-
-.overlay .overlay-menu .menu-container .menu-item a:after {
-	-webkit-transition: width .7s cubic-bezier(.22,.61,.36,1);
-	-moz-transition: width .7s cubic-bezier(.22,.61,.36,1);
-	transition: width .7s cubic-bezier(.22,.61,.36,1)
-}
-
-.overlay .overlay-menu .menu-container .menu-item a:hover:after,.overlay .overlay-menu .menu-container .menu-item a:hover:before {
-	width: 105%
-}
-
-.overlay .overlay-menu .menu-container .menu-item a:hover:before {
-	-webkit-transition: width .5s cubic-bezier(.22,.61,.36,1);
-	-moz-transition: width .5s cubic-bezier(.22,.61,.36,1);
-	transition: width .5s cubic-bezier(.22,.61,.36,1)
-}
-
-.overlay .overlay-menu .menu-container .menu-item a:hover:after {
-	background: 0 0;
-	-webkit-transition: 0s;
-	-moz-transition: 0s;
-	transition: 0s
-}
 
 @-webkit-keyframes fadeInTop {
 	0% {
